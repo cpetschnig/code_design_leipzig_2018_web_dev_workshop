@@ -7,10 +7,6 @@ get '/' do
   erb :index
 end
 
-get '/unterseite' do
-  erb :unterseite
-end
-
 get '/pages/:name' do
   @page = Page.where(url_name: params[:name]).first
   erb :page
