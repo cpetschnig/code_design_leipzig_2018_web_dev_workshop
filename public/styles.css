@@ -27,6 +27,11 @@ li:hover a {
   color: white;
 }
 
+div.navigation img {
+  width: 100px;
+  margin-left: 50px;
+}
+
 div.content {
   position: absolute;
   left: 250px;

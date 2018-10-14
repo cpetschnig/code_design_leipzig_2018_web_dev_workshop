@@ -3,12 +3,15 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
   </head>
   <body>
-    <ul>
-      <li><a href="/">Hauptseite</a></li>
-      <li><a href="/unterseite">Unterseite</a></li>
-      <li><a href="/unterseite2">Unterseite 2</a></li>
-      <li><a href="/unterseite3">Unterseite 3</a></li>
-    </ul>
+    <div class="navigation">
+      <ul>
+        <li><a href="/">Hauptseite</a></li>
+        <li><a href="/unterseite">Unterseite</a></li>
+        <li><a href="/unterseite2">Unterseite 2</a></li>
+        <li><a href="/unterseite3">Unterseite 3</a></li>
+      </ul>
+      <a href="/"><img src="bilder/fuchs_1.jpg"></a>
+    </div>
     <div class="content">
       <%= yield %>
     </div>
