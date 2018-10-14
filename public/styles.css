@@ -37,3 +37,7 @@ div.content {
   left: 250px;
   top: 0;
 }
+
+div.footer {
+  margin-top: 25px;
+}
