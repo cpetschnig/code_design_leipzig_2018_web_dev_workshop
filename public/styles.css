@@ -41,3 +41,7 @@ div.content {
 div.footer {
   margin-top: 25px;
 }
+
+label {
+  display: block;
+}
